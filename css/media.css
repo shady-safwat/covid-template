@@ -869,7 +869,7 @@ and (orientation: portrait) {
         flex-flow: column wrap;
     }
     .text-contact p{
-        font-size: 1px;
+        font-size: 14px;
     }
     .note-contact p{
         font-size: 14px;
