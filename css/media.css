@@ -1,0 +1,1301 @@
+    /* ----------- Galaxy Fold ----------- */
+@media only screen 
+and (min-device-width: 280px) 
+and (max-device-width: 653px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+    .container{
+        padding: 1rem;
+    }
+    /* navbar */
+    .navbar{
+        padding-top: 1rem;
+    }
+    .navbar .navbar-brand h2{
+        font-size:20px;
+    }
+    .navbar-toggler{
+        border: transparent;
+        outline: transparent;
+        color: transparent;
+        height: 5vh;
+        padding-right: 1rem;
+    }
+    .navbar-toggler-icon .icon{
+        color: #0984e3;
+    } 
+    .navbar-collapse {
+        position: fixed;
+        top: -5%;
+        left: -5%;
+        bottom: 0;
+        margin: 0;
+        padding-top: 5rem; 
+        padding-left: 3rem;
+        padding-bottom: 3rem;
+        background-color: white;
+        width: 60%;
+        height: 110%;
+        transition: .3s;
+    }
+    .navbar .navbar-nav{
+        margin: 0;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+        margin-bottom: 2rem; 
+    }
+    .navbar .navbar-nav .nav-item .protection{
+        width: 90%; 
+        font-size: 15px;
+        margin-left: 0;
+    }
+    /* slide */
+    .slide{
+        padding: 5rem 0 .5rem 0!important;
+    }
+    .slide .slide-caption .heading{
+        flex-flow: column;
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .slide .slide-caption .heading h1{
+        font-size: 45px;
+        margin-top: 2rem;
+        line-height: 1rem;
+    }
+    .slide .slide-caption .heading-2 h3{
+        font-size: 20px;
+    }
+    .slide .slide-caption .heading-2 h2{
+        font-size: 30px;
+    }
+    .slide .slide-caption .first-paragraph{
+        text-align: center;
+        font-size: 12px;
+    }
+    .slide .slide-caption .links{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    .slide .slide-caption .links .link-left{
+        text-align: center;
+        margin: 1rem auto;
+        font-size: 15px;
+        width: 70%;
+        height: 70%;
+    }
+    .slide .slide-caption .links .link-right{
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+    .slide .slide-caption .counters{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .slide .slide-caption .counters .counter-item .paragraph-counter{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .slide .slide-caption .counters .counter-item .counter{
+        font-size: 30px;
+    }
+    .slide .slide-caption .last-paragraph{
+        font-size: 11px;
+    }
+    .slide .slide-image img{
+        height: auto;
+    }
+    /* about */
+    .about{
+        text-align: center;
+        margin: 0 auto;
+        padding: 4rem 0!important;
+    }
+    .about .text-about h6{
+        font-size: 15px;
+    }
+    .about .text-about h2{
+        font-size: 20px;
+    }
+    .about .text-about p:first-of-type{
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    .about .text-about span{
+        font-size: 12px;
+    }
+    .about .text-about p{
+        font-size: 12px;
+        line-height: 1rem;
+        margin-bottom: 3rem;
+    }
+    .about .list-about table, th, td {
+        margin-left: 0;
+        padding: 1rem 0 1rem 1rem;
+        width: 100%;
+    }
+    .about .list-about th{
+        font-size: 15px;
+    }
+    .about .list-about td a{
+        font-size: 12px;
+        line-height: 1;
+    }
+    /* spread */
+    .spread{
+        padding: 2rem 0!important;
+    }
+    .spread .text-spread {
+        width: 100%;
+    }
+    .spread .text-spread h5{
+        font-size: 12px;
+    }
+    .spread .text-spread h1{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .spread .text-spread p{
+        font-size:13px;
+        margin-bottom: 2rem;
+    }
+    .spread .card-spread .item-card{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .spread .card-spread .item-card .box-card p:first-of-type{
+        font-size: 14px;
+    }
+    .spread .card-spread .item-card .box-card p:last-of-type{
+        font-size: 12px;
+        line-height: 1rem;
+    }
+    .button-spread .question{
+        font-size: 12px;
+        padding: .5rem  1rem;
+    }
+    /* symptoms */
+    .symptoms{
+        padding: 4rem 0!important;
+    }
+    .symptoms .text-symptoms{
+        width: 100%;
+    }
+    .symptoms .text-symptoms h5{
+        font-size: 12px;
+    }
+    .symptoms .text-symptoms h1{
+        font-size: 20px;
+    }
+    .symptoms .text-symptoms p{
+        font-size: 12px;
+        margin-bottom: 3rem;
+        width: 93%;
+    }
+    .symptoms .card-symptoms{
+        margin: 0 auto;
+    }
+    .symptoms .card-symptoms .image-symptoms {
+        width: 23%;
+        position: absolute;
+        margin-top: -2rem;
+        margin-left: 9rem;
+    }
+    .symptoms .card-symptoms .body-symptoms{
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    .symptoms .card-symptoms .body-symptoms h3{
+        font-size: 13px;
+    }
+    .symptoms .card-symptoms .body-symptoms p{
+        font-size: 11px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms{
+        width: 100%;
+    }
+    .symptoms .alert-symptoms .tex-symptoms .icon-triangle{
+        font-size: 20px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms p{
+        font-size: 12px;
+        line-height: 1rem;
+        margin-bottom: 2.5rem;
+    }
+    .symptoms .alert-symptoms .button-symptoms{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .symptoms .alert-symptoms .button-symptoms .btn-symptoms {
+        font-size: 12px;
+    }
+    /* protect */
+    .protect{
+        padding: 4rem 0!important;
+    }
+    .protect .text-protect {
+        width: 100%;
+    }
+    .protect .text-protect h5{
+        font-size: 12px;
+    }
+    .protect .text-protect h1{
+        font-size: 20px;
+    }
+    .protect .text-protect p{
+        font-size: 12px;
+        line-height: 1.3rem;
+    }
+    .protect .card-protect .item-protect .image-protect{
+        width: 40%;
+        padding-bottom: 0.5rem;
+    }
+    .protect .card-protect .item-protect .body-protect {
+        width: 100%;
+    }
+    .protect .card-protect .item-protect .body-protect h3{
+        font-size: 12px;
+    }
+    .protect .card-protect .item-protect .body-protect p{
+        font-size: 11px;
+        line-height: 1rem;
+    }
+    .protect .buttons-protect{
+        margin: 5rem auto;
+        flex-flow: column wrap;
+    }
+    .protect .buttons-protect .btn1-protect{
+        margin-bottom: 1rem;
+        font-size: 13px;
+    }
+    .protect .buttons-protect .btn2-protect{
+        font-size: 13px;
+    }
+    .protect .step-protect .text-step{
+        width:100%;
+    }
+    .protect .step-protect .text-step h2{
+        font-size: 16px;
+    }
+    .protect .step-protect .text-step ul li{
+        font-size: 11px;
+        padding-right: 1rem;
+    }
+    .protect .step-protect .image-step{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .protect .step-protect .image-step img{
+        margin-left: 2rem;
+        height: 50vh;
+    }
+    .protect .tex-protect h3{
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    .protect .tex-protect .bt{
+        font-size:12px;
+    }
+    .protect .images-protect .hand-box{
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .protect .images-protect .hand-box img{
+        width: 40%;
+    }
+    .protect .images-protect p{
+        font-size: 12px;
+    }
+    /* treatment */
+    .treatment{
+        padding: 4rem 0!important;
+    }
+    .treatment .text-treatment {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .treatment .text-treatment h6{
+        font-size: 11px;
+    }
+    .treatment .text-treatment h2{
+        font-size: 20px;
+    }
+    .treatment .text-treatment p{
+        font-size: 11px;
+    }
+    /* card treatment */
+    .treatment .card-treatment h6{
+        font-size: 17px;
+        margin-bottom: 1rem;
+    }
+    .treatment .card-treatment p{
+        font-size: 11px;
+        margin-bottom: 1rem;
+    }
+    .treatment .card-treatment ul li{
+        margin-bottom: .5rem;
+        font-size: 11px;
+        text-align: left;
+    }
+    /* do and dont */
+    .Do_Dont{
+        padding: 4rem 0!important;
+    }
+    .Do_Dont .text-Do-Dont h6{
+        font-size: 13px;
+    }
+    .Do_Dont .text-Do-Dont h2{
+        font-size: 20px;
+    }
+    .Do_Dont .text-Do-Dont p{
+        font-size: 12px;
+        line-height: 1rem;
+    }  
+    .Do_Dont .box-Do-Dont {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image{
+        flex-flow: column-reverse wrap;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image p{
+        font-size: 13px;
+        margin: 1rem 0;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong .wrong-icon {
+        font-size: 20px;
+        top: -2%;
+        right: 57%;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong-image img{
+        width:60%;
+    }
+    .Do_Dont .box-Do-Dont .box-middle-images img{
+        width: 100%;
+        height: 50vh;
+        margin: 2rem 0;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image{
+        flex-flow: column wrap;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .right .right-icon {
+        font-size: 20px;
+        top: 1%;
+        left: 33%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .true-image img{
+        width:60%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image p{
+        font-size: 13px;
+        margin: 1rem 0;
+    }
+    /* faq */
+    .faq{
+        padding: 4rem 0!important;
+    }
+    .faq .text-faq h6{
+        font-size: 11px;
+    }
+    .faq .text-faq h2{
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+    /* .faq .box-faq .left-list{
+        padding-left: 1rem;
+    } */
+    .faq .box-faq .left-list li{
+        font-size: 11px;
+        width: 93%;
+        height: 5vh;
+        margin: 0;
+    }
+    .panel-group-list {
+        margin: 0 1rem;
+    }
+    .panel-group-list .link{
+        padding: 0.7rem 1rem;
+    }
+    .panel-group-list .link  .border-link h4
+    {
+        font-size: 11px;
+    }
+    .panel-group-list .link .border-link .plus{
+        font-size: 11px;
+    }
+    .panel-group-list .panel-list .panel-heading h4,
+    .panel-group-list .panel-list .panel-heading .minus{
+        font-size: 11px;
+        margin-top: .5rem;
+    }
+    .panel-group-list .panel-list .panel-collapsone h2{
+        font-size: 11px;
+    }
+    .panel-group-list .panel-list .panel-collapsone h6{
+        font-size: 12px;
+    }
+    .panel-group-list .panel-list .panel-collapsone p{
+        font-size: 9.3px;
+    }
+    .panel-group-list .panel-list .panel-collapsone .right-list li {
+        font-size: 9px;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+    .news{
+        padding: 4rem 0!important;
+        margin: 0 auto;
+    }
+    /* news */
+    .news .text-news h6{
+        font-size: 13px;
+    }
+    .news .text-news h2{
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+    .news .card-news .cards{
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+    .news .card-news .cards h3{
+        font-size:13px;
+    }
+    .news .card-news .cards p{
+        font-size: 11px;
+        line-height: 1.3rem;
+        margin:0;
+    }
+    /* contact */
+    .contact{
+        padding: 2rem 0!important;
+    }
+    .contact .contact-first h2{
+        font-size: 20px;
+    }
+    .contact .contact-first p{
+        font-size: 11px;
+        width: 100%;
+    }
+    .contact .contact-first .media .icon{
+        font-size: 11px;
+        margin-bottom: 3rem;
+        width: 11%;
+        height: 11%;
+        line-height: 1.5rem;
+    }
+    .contact .contact-first h5{
+        font-size: 13px;
+        margin-left: 0;
+    }
+    .contact .contact-first ul li{
+        margin-left: -2rem;
+    }
+    .contact .contact-first ul li a{
+        font-size: 11px;
+    }
+    .text-contact{
+        flex-flow: column wrap;
+    }
+    .text-contact p{
+        font-size: 11px;
+    }
+    .note-contact p{
+        font-size: 10px;
+        padding-right: 0;
+    }
+    /* slide scroll */
+    .slide-scroll {
+        right: 6%;
+        bottom: 6%;
+    }
+    .slide-icon{
+        font-size: 10px;
+        padding: .4rem;
+    }
+}
+
+   /* ----------- mobile s-320px ----------- */
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 1200px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+    /* navbar */
+    .navbar {
+        padding-right: 1rem;
+        height: 7vh;
+    }
+    .navbar .navbar-brand h2{
+        font-size:20px;
+    }
+    .navbar-toggler{
+        height: 3vh;
+    }
+    .navbar-toggler-icon{
+        width: .5rem;
+    }
+    .navbar-collapse {
+        padding-left: 3rem;
+        width: 70%;
+        top: 0;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+    }
+    .navbar .navbar-nav .nav-item .protection {
+        width: 70%;
+    }
+    /* slide */
+    .slide .slide-caption .heading h1{
+        font-size: 50px;
+    }
+    .slide .slide-caption .heading-2 h3{
+        font-size: 20px;
+    }
+    .slide .slide-caption .heading-2 h2{
+        font-size: 25px;
+    }
+    .slide .slide-caption .first-paragraph{
+        font-size: 17px;
+    }
+    .slide .slide-caption .links .link-left{
+        font-size: 20px;
+        width: 70%;
+        height: 70%;
+    }
+    .slide .slide-caption .links .link-right{
+        font-size: 20px;
+    }
+    .slide .slide-caption .counters .counter-item .paragraph-counter{
+        font-size: 16px;
+    }
+    .slide .slide-caption .counters .counter-item .counter{
+        font-size: 35px;
+    }
+    .slide .slide-caption .last-paragraph{
+        font-size: 14px;
+    }
+    /* about */
+    .about .text-about h6{
+        font-size: 17px;
+    }
+    .about .text-about h2{
+        font-size: 19px;
+    }
+    .about .text-about p:first-of-type{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .about .text-about span{
+        font-size: 17px;
+    }
+    .about .text-about p{
+        font-size: 17px;
+        line-height: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .about .list-about table, th, td{
+        margin-left: 0;
+        width: 100%;
+    }
+    .about .list-about th {
+        font-size: 20px;
+    }
+    .about .list-about td a {
+        font-size: 17px;
+    }
+    /* spread */
+    .spread .text-spread h5{
+        font-size: 15px;
+    }
+    .spread .text-spread h1{
+        font-size: 20px;
+    }
+    .spread .text-spread p{
+        font-size:17px;
+        margin-bottom: 4rem;
+    }
+    .spread .card-spread .item-card .box-card p:first-of-type{
+        font-size: 17px;
+    }
+    .spread .card-spread .item-card .box-card p:last-of-type{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .button-spread .question{
+        font-size: 15px;
+    }
+    /* symptoms */
+    .symptoms .text-symptoms h5{
+        font-size: 15px;
+    }
+    .symptoms .text-symptoms h1{
+        font-size: 20px;
+    }
+    .symptoms .text-symptoms p{
+        font-size: 17px;
+        margin-bottom: 4rem;
+    }
+    .symptoms .card-symptoms{
+        margin: 0 auto;
+    }
+    .symptoms .card-symptoms .image-symptoms {
+        width: 30%;
+        margin-top: -3rem;
+        margin-left: 11rem;
+    }
+    .symptoms .card-symptoms .body-symptoms{
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    .symptoms .card-symptoms .body-symptoms h3{
+        font-size: 18px;
+    }
+    .symptoms .card-symptoms .body-symptoms p{
+        font-size: 16px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms{
+        width: 100%;
+    }
+    .symptoms .alert-symptoms .tex-symptoms .icon-triangle{
+        font-size: 35px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms p{
+        font-size: 18px;
+        line-height: 1.5rem;
+        margin-bottom: 5rem;
+    }
+    .symptoms .alert-symptoms .button-symptoms .btn-symptoms {
+        font-size: 18px;
+    }
+    /* protect */
+    .protect .text-protect h5{
+        font-size: 16px;
+    }
+    .protect .text-protect h1{
+        font-size: 24px;
+    }
+    .protect .text-protect p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .protect .card-protect .item-protect .image-protect{
+        width: 50%;
+    }
+    .protect .card-protect .item-protect .body-protect h3{
+        font-size: 16px;
+    }
+    .protect .card-protect .item-protect .body-protect p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .protect .buttons-protect .btn1-protect{
+        font-size: 17px;
+    }
+    .protect .buttons-protect .btn2-protect{
+        font-size: 17px;
+    }
+    .protect .step-protect .text-step h2{
+        font-size: 20px;
+    }
+    .protect .step-protect .text-step ul li{
+        font-size: 17px;
+    }
+    .protect .step-protect .image-step{
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .protect .step-protect .image-step img{
+        height: 50vh;
+    }
+    .protect .tex-protect h3{
+        font-size: 22px;
+    }
+    .protect .tex-protect .bt{
+        font-size:18px;
+    }
+    .protect .images-protect .hand-box{
+        text-align: center;
+        margin: 1rem auto;
+    }
+    .protect .images-protect .hand-box img{
+        width: 50%;
+    }
+    .protect .images-protect p{
+        font-size: 18px;
+    }
+    /* treatment */
+    .treatment .text-treatment h6{
+        font-size: 14px;
+    }
+    .treatment .text-treatment h2{
+        font-size: 15px;
+    }
+    .treatment .text-treatment p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    /* card treatment */
+    .treatment .card-treatment h6{
+        font-size: 25px;
+    }
+    .treatment .card-treatment p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    .treatment .card-treatment ul li{
+        font-size: 16px;
+    }
+    /* do and dont */
+    .Do_Dont .text-Do-Dont h6{
+        font-size: 25px;
+    }
+    .Do_Dont .text-Do-Dont h2{
+        font-size: 27px;
+    }
+    .Do_Dont .text-Do-Dont p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }  
+
+    .Do_Dont .box-Do-Dont .box-left-images .left-image p{
+        font-size: 22px;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong .wrong-icon {
+        font-size: 35px;
+        top: -3%;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong-image img{
+        width:80%;
+    }
+    .Do_Dont .box-Do-Dont .box-middle-images img{
+        height: 60vh;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .right .right-icon {
+        font-size: 35px;
+        top: -5%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .true-image img{
+        width:80%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image p{
+        font-size: 22px;
+    }
+    /* faq */
+    .faq .text-faq h6{
+        font-size: 15px;
+    }
+    .faq .text-faq h2{
+        font-size: 23px;
+    }
+    .faq .box-faq .left-list{
+        padding-left: 20px;
+    }
+    .faq .box-faq .left-list li{
+        font-size: 17px;
+    }
+    .panel-group-list {
+        margin-right: 1.5rem;
+    }
+    .panel-group-list .link{
+        padding: 2.7rem 1rem;
+        height: 10vh;
+    }
+    .panel-group-list .link  .border-link h4
+    {
+        font-size: 16px;
+    }
+    .panel-group-list .link .border-link .plus{
+        font-size: 16px;
+    }
+    .panel-group-list .panel-list .panel-heading h4,
+    .panel-group-list .panel-list .panel-heading .minus{
+        font-size: 16px;
+    }
+    .panel-group-list .panel-list .panel-collapsone h2{
+        font-size: 17px;
+    }
+    .panel-group-list .panel-list .panel-collapsone h6{
+        font-size: 15px;
+    }
+    .panel-group-list .panel-list .panel-collapsone p{
+        font-size: 16px;
+    }
+    .panel-group-list .panel-list .panel-collapsone .right-list li {
+        font-size: 15px;
+    }
+    /* news */
+    .news .text-news h6{
+        font-size: 20px;
+    }
+    .news .text-news h2{
+        font-size: 30px;
+    }
+    .news .card-news .cards{
+        width: 90%;
+    }
+    .news .card-news .cards h3{
+        font-size:17px;
+    }
+    .news .card-news .cards p{
+        font-size: 17px;
+        line-height: 1.5rem;
+    }
+    /* contact */
+    .contact .contact-first h2{
+        font-size: 25px;
+    }
+    .contact .contact-first p{
+        font-size: 16px;
+    }
+    .contact .contact-first .media .icon{
+        font-size: 15px;
+        width: 15%;
+        height: 15%;
+        line-height: 2rem;
+    }
+    .contact .contact-first h5{
+        font-size: 20px;
+    }
+    .contact .contact-first ul li a{
+        font-size: 13px;
+    }
+    .text-contact{
+        flex-flow: column wrap;
+    }
+    .text-contact p{
+        font-size: 1px;
+    }
+    .note-contact p{
+        font-size: 14px;
+    }
+    .slide-scroll{
+        padding: 0.3rem;
+    }
+    .slide-icon{
+        font-size: 20px;
+        
+    }
+}
+
+    /* ----------- iPad 1, 2, Mini and Air , iPad 3, 4 and Pro 9.7"----------- */
+/* Portrait */
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1200px) 
+    and (orientation: portrait) 
+    and (-webkit-min-device-pixel-ratio:2) {
+        /* navbar */
+    .navbar {
+        height: 11vh;
+        
+    }
+    .navbar .navbar-brand h2{
+        font-size:40px;
+        margin-left: -2rem;
+    }
+    .navbar-toggler{
+        border: transparent;
+        outline: transparent;
+        color: transparent;
+        height: 5vh;
+    }
+    .navbar-toggler .navbar-toggler-icon .icon{
+        color: #0984e3;
+        font-size: 40px;
+        margin-right:-2rem;
+    }
+    .navbar-collapse{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        padding-top: 10rem;
+        padding-left: 2rem;
+        width: 50%;
+        height: 100%;
+    } 
+    .navbar .navbar-nav{
+        margin: 0;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size:35px;
+        margin-bottom: 2rem;
+    }
+    /* slide */
+    .slide{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .slide .slide-caption .heading h1{
+        font-size: 70px;
+    }
+    .slide .slide-caption .heading-2 h3{
+        font-size: 20px;
+    }
+    .slide .slide-caption .heading-2 h2{
+        font-size: 30px;
+    }
+    .slide .slide-caption .first-paragraph{
+        font-size: 20px;
+    }
+    .slide .slide-caption .links .link-left{
+        font-size: 20px;
+        width: 50%;
+        height: 30%;
+    }
+    .slide .slide-caption .links .link-right{
+        font-size: 20px;
+    }
+    .slide .slide-caption .counters .counter-item .paragraph-counter{
+        font-size: 16px;
+    }
+    .slide .slide-caption .counters .counter-item .counter{
+        font-size: 35px;
+    }
+    .slide .slide-caption .last-paragraph{
+        font-size: 18px;
+    }
+    .slide .slide-image img {
+        width: 204%;
+        height: auto;
+    } 
+    /* about */
+    .about{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .about .text-about h6{
+        font-size: 27px;
+    }
+    .about .text-about h2{
+        font-size: 35px;
+    }
+    .about .text-about p:first-of-type {
+        font-size: 22px;
+        line-height: 2rem;
+    }
+    .about .text-about span{
+        font-size: 22px;
+    }
+    .about .text-about p{
+        font-size: 22px;
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about .list-about table, th, td {
+        margin-left: 0;
+        width: 100%;
+    }
+    .about .list-about th {
+        font-size: 30px;
+    }
+    .about .list-about td a {
+        font-size: 26px;
+    }
+    /* spread */
+    .spread .text-spread h5{
+        font-size: 25px;
+    }
+    .spread .text-spread h1{
+        font-size: 30px;
+    }
+    .spread .text-spread p{
+        font-size:24px;
+        margin: 0 -1rem;
+    }
+    .spread .card-spread .item-card .box-card p:first-of-type{
+        font-size: 20px;
+    }
+    .spread .card-spread .item-card .box-card p:last-of-type{
+        font-size: 20px;
+        line-height: 1.5rem;
+    }
+    .button-spread .question{
+        font-size: 23px;
+    }
+    /* symptoms */
+    .symptoms .text-symptoms h5{
+        font-size: 20px;
+    }
+    .symptoms .text-symptoms h1{
+        font-size: 29px;
+    }
+    .symptoms .text-symptoms p{
+        font-size: 22px;
+        line-height: 2rem;
+        margin-bottom: 8rem;
+    }
+    .symptoms .item-symptoms{
+        margin-bottom: 8rem;
+    }
+    .symptoms .card-symptoms .image-symptoms {
+        width: 20%;
+        margin-top: -4rem;
+        margin-left: 21rem;
+    }
+    .symptoms .card-symptoms .body-symptoms h3{
+        font-size: 25px;
+    }
+    .symptoms .card-symptoms .body-symptoms p{
+        font-size: 20px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms {
+        width: 90%;
+        margin-bottom: 3rem;
+    }
+    .symptoms .alert-symptoms .tex-symptoms .icon-triangle{
+        font-size: 50px;
+    }
+    .symptoms .alert-symptoms .tex-symptoms p{
+        font-size: 22px;
+        line-height: 2rem;
+    }
+    .symptoms .alert-symptoms .button-symptoms .btn-symptoms {
+        font-size: 22px;
+        margin-left: -7rem;
+    }
+    /* protect */
+    .protect .text-protect h5{
+        font-size: 25px;
+    }
+    .protect .text-protect h1{
+        font-size: 40px;
+    }
+    .protect .text-protect p{
+        font-size: 22px;
+        line-height: 2rem;
+    }
+    .protect .card-protect .item-protect .image-protect{
+        width: 40%;
+    }
+    .protect .card-protect .item-protect .body-protect h3{
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+    .protect .card-protect .item-protect .body-protect p{
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    .protect .buttons-protect{
+        flex-flow: column wrap;
+    }
+    .protect .buttons-protect .btn1-protect{
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+    .protect .buttons-protect .btn2-protect{
+        font-size: 25px;
+    }
+    .protect .step-protect .text-step{
+        width:100%
+    }
+    .protect .step-protect .text-step h2{
+        font-size: 27px;
+    }
+    .protect .step-protect .text-step ul li{
+        font-size: 20px;
+    }
+    .protect .step-protect .image-step img{
+        height: 47vh;
+        margin-left: 7rem;
+        width: 130%;
+    }
+    .protect .tex-protect h3{
+        font-size: 30px;
+        margin-bottom: 2rem;
+    }
+    .protect .tex-protect .bt{
+        font-size:24px;
+    }
+    .protect .images-protect .hand-box{ 
+        text-align: center;
+        margin: 0 auto;
+    } 
+    .protect .images-protect .hand-box img{
+        width: 80%;
+    }
+    .protect .images-protect p{
+        font-size: 19px;
+    }
+     /* treatment */
+    .treatment .text-treatment h6{
+        font-size: 20px;
+    }
+    .treatment .text-treatment h2{
+        font-size: 25px;
+    }
+    .treatment .text-treatment p{
+        font-size: 20px;
+    } 
+    .treatment .card-treatment h6{
+        font-size: 25px;
+    }
+    .treatment .card-treatment p{
+        font-size: 20px;
+    }
+    .treatment .card-treatment ul{
+        margin-bottom: 2rem;
+    }
+    .treatment .card-treatment ul li{
+        font-size: 17px;
+    }
+    /* do and dont */
+    .Do_Dont .text-Do-Dont h6{
+        font-size: 25px;
+    }
+    .Do_Dont .text-Do-Dont h2{
+        font-size: 35px;
+    }
+    .Do_Dont .text-Do-Dont p{
+        font-size: 19px;
+        line-height: 2rem;
+        margin-bottom: 5rem;
+    }  
+
+    .Do_Dont .box-Do-Dont .box-left-images .left-image p{
+        font-size: 20px;
+
+    }
+    .Do_Dont .box-Do-Dont .ord2{
+        order: 2;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong .wrong-icon {
+        font-size: 30px;
+        left: 58%;
+        top: -5%;
+    }
+    .Do_Dont .box-Do-Dont .box-left-images .left-image .wrong-image img{
+        width:100%;
+    }
+    .Do_Dont .box-Do-Dont .ord1{
+        order: 1;
+    }
+    .Do_Dont .box-Do-Dont .box-middle-images img{
+        height: 40vh;
+        margin-left: 1rem;
+    }
+    .Do_Dont .box-Do-Dont .ord3{
+        order: 3;
+        margin-top: .3rem;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .right .right-icon {
+        font-size: 30px;
+        left: 4%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image .true-image img{
+        width:100%;
+    }
+    .Do_Dont .box-Do-Dont .box-right-images .right-image p{
+        font-size: 20px;
+        margin-left: 1.5rem;
+    }
+    /* faq */
+    .faq .text-faq h6{
+        font-size: 25px;
+    }
+    .faq .text-faq h2{
+        font-size: 40px;
+    }
+    .faq .box-faq .left-list{
+        width: 88%;
+    }
+
+    .faq .box-faq .left-list li{
+        font-size: 23px;
+        width:87%;
+    }
+    .panel-group-list{
+        margin: 0 auto;
+        width: 80%;
+    }
+    .panel-group-list .link  .border-link h4
+    {
+        font-size: 24px;
+    }
+    .panel-group-list .link .border-link .plus{
+        font-size: 24px;
+    }
+    .panel-group-list .panel-list .panel-heading h4,
+    .panel-group-list .panel-list .panel-heading .minus{
+        font-size: 24px;
+    }
+    .panel-group-list .panel-list .panel-collapsone h2{
+        font-size: 20px;
+    }
+    .panel-group-list .panel-list .panel-collapsone h6{
+        font-size: 20px;
+    }
+    .panel-group-list .panel-list .panel-collapsone p{
+        font-size: 19px;
+    }
+    .panel-group-list .panel-list .panel-collapsone .right-list li {
+        font-size: 20px;
+    } 
+    /* news */
+    .news .text-news h6{
+        font-size: 20px;
+    }
+    .news .text-news h2{
+        font-size: 40px;
+    }
+    .news .card-news .cards{
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+    .news .card-news .cards h3{
+        font-size:25px;
+    }
+    .news .card-news .cards p{
+        font-size: 20px;
+        line-height: 1.5rem;
+    } 
+    /* contact */
+    .contact .contact-first h2{
+        font-size: 35px;
+    }
+    .contact .contact-first p{
+        font-size: 20px;
+    }
+    .contact .contact-first .media .icon{
+        font-size: 20px;
+        width: 10%;
+        height: 15%;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+    }
+    .contact .contact-first h5{
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+    .contact .contact-first ul li{
+        padding-bottom: 2rem;
+    }
+    .contact .contact-first ul li a{
+        font-size: 20px;
+        line-height: 1.7rem;
+        margin-bottom: 3rem;
+    }
+    .text-contact{
+        flex-flow: column wrap;
+    }
+    .text-contact p{
+        font-size: 20px;
+    }
+    .note-contact p{
+        font-size: 18px;
+    }
+    /* slide-scroll */
+    .slide-icon{
+        font-size: 40px;
+        padding: .5rem;
+    }
+}
