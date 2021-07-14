@@ -741,6 +741,9 @@ and (orientation: portrait) {
         line-height: 1.5rem;
     }
     /* card treatment */
+    .treatment .card-treatment{
+        margin:0;
+    }
     .treatment .card-treatment h6{
         font-size: 25px;
     }
